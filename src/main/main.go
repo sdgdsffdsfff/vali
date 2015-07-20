@@ -1,6 +1,5 @@
 package main
 
-
 import (
     "fmt"
     "vali"
@@ -8,6 +7,7 @@ import (
 
 
 func main() {
-    fmt.Println("start to work")
-    vali.StartServer()
+	fmt.Println("start to work")
+	vali.StartServer()
 }
+

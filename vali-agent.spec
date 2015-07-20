@@ -4,10 +4,10 @@ Version: 1.0.2
 Release: 141215000.el6
 Requires: redhat-lsb-core >= 4.0-7
 License: GPL
-Group: wandoulabs
+Group: nosa 
 Source: vali-agent.tar.gz
-URL: http://mirrors.corp.nosa.me/nosa
-Packager: guoxuxing <guoxuxing@nosa.me>
+URL: http://www.nosa.me
+Packager: nosa 
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 AutoReqProv: no
 

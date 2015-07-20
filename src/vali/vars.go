@@ -1,14 +1,10 @@
 package vali
 
-
 import (
-    "log"
-    "sync"
+	"log"
 )
 
-
 var (
-    Logger       = new(log.Logger)
-    handleWG     sync.WaitGroup
-    RLIMIT_NPROC = 0x6
+	Logger       = new(log.Logger)
+	RLIMIT_NPROC = 0x6
 )
